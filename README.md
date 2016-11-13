@@ -21,13 +21,13 @@ This template provides:
 1. PROFIT
 
 ### Not supported yet
-* HttpGet/HttpPost/etc. based routing. Now it's working only with [Route('smthng')] attribute
+* `HttpGet`/`HttpPost`/etc. based routing. Now it's working only with `[Route('smthng')]` attribute
 * Only GET and POST routes are supported
 * Referencing generated models from other projects
 * ... and so on
 
 
-### Exapmle
+### Example
 Based on `TypeScriptViewModel` and `TypeScriptController` attributes these two classes will we be transformed:
 
 ```csharp
