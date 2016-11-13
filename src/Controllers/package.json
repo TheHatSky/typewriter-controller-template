@@ -1,0 +1,21 @@
+{
+  "name": "controllers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack --config=../../test/webpack.tests.config.js && karma start ../../test/karma.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.0",
+    "typescript": "^2.0.9"
+  },
+  "dependencies": {
+    "asp-net-core-url-compiler": "^0.1.0",
+    "es6-promise": "^4.0.5",
+    "whatwg-fetch": "^1.0.0"
+  }
+}

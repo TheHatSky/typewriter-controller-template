@@ -250,3 +250,13 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+
+# Project specific
+src/Controllers/scripts/**/*.js
+src/Controllers/scripts/**/*.map
+src/Controllers/wwwroot/js/
+
+test/Controllers.Tests/scripts/**/*.js
+test/Controllers.Tests/scripts/**/*.map
+
+**/typings
